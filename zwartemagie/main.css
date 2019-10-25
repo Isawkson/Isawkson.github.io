@@ -1,0 +1,86 @@
+@media only screen and (orientation: landscape) {
+  @keyframes infade {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    25% {
+      opacity: 1;
+    }
+    100% {
+      top: 50%;
+    }
+  }
+
+  body {
+    background-image: url("img/Amsterdam_RAI.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
+
+  section {
+    overflow: hidden;
+    margin-left: auto;
+    width: 864px;
+    height: 260.5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: infade 1s ease;
+  }
+
+  .thumbnail {
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+    float: left;
+    width: 128px;
+    height: 128px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    border: 1px solid #000000;
+    fill: rgba(0, 0, 0, 0.8);
+  }
+
+  .thumbnail:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 16px rgba(225, 225, 225, 1);
+    fill: rgba(225, 225, 225, 0, 8);
+  }
+
+  .thumbnail2 {
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+    float: left;
+    width: 92.5px;
+    height: 92.5px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    border: 1px solid #000000;
+    fill: rgba(0, 0, 0, 0.8);
+  }
+
+  .thumbnail2:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 1);
+    fill: rgba(255, 255, 255, 0.8);
+  }
+}
