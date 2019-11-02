@@ -1,19 +1,15 @@
-@media only screen and (orientation: landscape) {
-  @keyframes infade {
-    0% {
-      opacity: 0;
-      top: 45%;
-    }
-    25% {
-      opacity: 1;
-    }
-    100% {
-      top: 50%;
-    }
+@media only screen and (orientation: landscape) 
+{
+  @keyframes infade 
+  {
+    0% {opacity: 0; top: 45%;}
+    25% { opacity: 1;}
+    100% {top: 50%;}
   }
 
-  body {
-    background-image: url("img/Amsterdam_RAI.jpg");
+  body 
+  {
+    background-image: url("../img/Amsterdam_RAI.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +18,8 @@
     left: 0%;
   }
 
-  section {
+  section 
+  {
     overflow: hidden;
     margin-left: auto;
     width: 864px;
@@ -41,7 +38,8 @@
     animation: infade 1s ease;
   }
 
-  .thumbnail {
+  .thumbnail 
+  {
     margin-left: 12px;
     margin-top: 12px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -57,13 +55,15 @@
     fill: rgba(0, 0, 0, 0.8);
   }
 
-  .thumbnail:hover {
+  .thumbnail:hover 
+  {
     border: 1px solid #fff;
     box-shadow: 0 0 16px rgba(225, 225, 225, 1);
     fill: rgba(225, 225, 225, 0, 8);
   }
 
-  .thumbnail2 {
+  .thumbnail2 
+  {
     margin-left: 12px;
     margin-top: 12px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -78,7 +78,8 @@
     fill: rgba(0, 0, 0, 0.8);
   }
 
-  .thumbnail2:hover {
+  .thumbnail2:hover 
+  {
     border: 1px solid #fff;
     box-shadow: 0 0 16px rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 0.8);
