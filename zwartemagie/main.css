@@ -7,9 +7,17 @@
     100% {top: 50%;}
   }
 
+  img
+  {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+  }
+
   body 
   {
-    background-image: url("../img/Amsterdam_RAI.jpg");
+    background-color: #e8e1ef;
+   /*background-image: url("../img/Amsterdam_RAI.jpg"); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -84,4 +92,15 @@
     box-shadow: 0 0 16px rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 0.8);
   }
+
+  .thumbnail svg {
+    width: 100%;
+    height: auto;
+  }
+
+  #knudst
+  {
+    background: radial-gradient(circle at 0% 0%, rgba(0,0,0,.3), rgba(0,0,0,0) 80%), radial-gradient(circle at 0% 100%, rgba(255,255,255,.3), rgba(255,255,255,0) 80%), radial-gradient(circle at 100% 100%, rgba(0,0,0,.2), rgba(0,0,0,0) 80%), radial-gradient(circle at 100% 0%, rgba(255,255,255,.2), rgba(255,255,255,0) 100%);
+  } 
+
 }
